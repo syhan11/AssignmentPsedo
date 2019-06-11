@@ -1,0 +1,47 @@
+Assignment 1: Average score
+Input: 10 exam scores
+Processing: calculate the average score
+Output: display the average on the screen
+
+Psedo Code:
+1. declare & set score to 0
+2. declare & set avg to 0
+3. declare & set sum to 0
+4. declare & set count to 0
+5. while count is less than 10 do
+5-1. ask a user for a score 
+5-2. set sum = sum + score
+5-3. increment count by 1
+
+6. set avg = sum div count
+7. display avg on the screen
+
+
+Assignment 2: Calculate a Rainfall Amount
+Input: dimension of a roof (width and length) in feet
+       amount of rain in inches
+	  
+Process: convert dimension of a roof in inches
+         compute amount of rain on a roof in inches
+         convert amount of rain from inches to gallons
+Output: display the mount of rain in gallons
+
+Psedo Code:
+1. declare width_roof_ft and length_roof_ft 
+2. declare width_roof_in and length_roof_in
+3. declare amt_rain_in and amt_rain_gal
+4. declare and set continue to yes
+5. do while user wants to continue
+5-1. ask a user for a width of a roof in feet 
+5-2. ask a user for a length of a roof in feet
+5-3. ask a user for an amount of rain in inches
+5-4. set width_roof_in = width_roof_ft X 12
+5-5. set length_roof_in = length_roof_ft X 12
+5-6. set amt_rain_in = width_roof_in X length_roof_in X in_rain 
+5-7. set amt_rain_gal = amt_rain / 231
+5-8. display amt_rain
+5-9. ask user if continue
+
+
+
+	   
